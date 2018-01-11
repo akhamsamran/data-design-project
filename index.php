@@ -111,7 +111,7 @@
 						<td></td>
 					</tr>
 					<tr>
-						<td>blogprofileId</td>
+						<td>blogProfileId</td>
 						<td>Foreign Key</td>
 						<td>relationship to member entity. 1-to-n = member-to-blog</td>
 					</tr>
