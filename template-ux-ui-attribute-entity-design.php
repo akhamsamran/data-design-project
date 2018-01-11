@@ -228,23 +228,23 @@
 
 				<h3>User Story</h3>
 				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
-				<p></p>
+				<p>As a Student User, I want to enter clinicals so my preceptor can sign them off</p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong></li>
-					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
-					<li><strong>Usage Preconditions</strong></li>
-					<li><strong>Usage Postconditions</strong></li>
-					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong></li>
+					<li><strong>Title</strong>Get a Required Clinical Entered and signed off</li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong>Midwife Apprentice</li>
+					<li><strong>Usage Preconditions</strong>Student must be enrolled as a StudentUser on the app</li>
+					<li><strong>Usage Postconditions</strong>clinical information is posted in the app and available for the preceptor to verify</li>
+					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong>on clincal days, several days per week, this is done by the student as soon as a clinical requirement is complete</li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
-					<li><strong>User Action 1</strong></li>
-					<li><strong>System Response 1</strong></li>
-					<li><strong>User Action 2</strong></li>
-					<li><strong>System Response 2</strong></li>
-					<li><strong>User Action 3</strong></li>
+					<li><strong>User Action 1</strong> Student logs in</li>
+					<li><strong>System Response 1</strong>opens access to their file and gives access to a table where information about the clinical can be entered</li>
+					<li><strong>User Action 2</strong> student enters inforamtion on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
+					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's username and the preceptors username. Generates an alert for the preceptor that a clinical is posted for their verification</li>
+					<li><strong>User Action 3</strong>Student logs out</li>
 					<li><strong>System Response 3</strong></li>
 					<li><strong>User Action 4</strong></li>
 					<li><strong>System Response 4</strong></li>
