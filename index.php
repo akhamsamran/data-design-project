@@ -290,7 +290,7 @@
 					<li><strong>Personality</strong>: Confident, adventurous, kind. Wants to share her adventures and save the world</li>
 					<li><strong>Gender</strong>: Female</li>
 					<li><strong>Age</strong>: 24</li>
-					<li><strong>Technology</strong>: comfortable with Windows, Mac and Android</li>
+					<li><strong>Technology</strong>: Comfortable with Windows, Mac and Android</li>
 					<ul>
 						<li><strong>Device</strong> Samsung Galaxy 7 phone, macbook pro (2011)</li>
 						<li><strong>Proficiency</strong> Feels highly competent on all technology, learns new tech fast</li>
@@ -304,16 +304,16 @@
 				</ul>
 
 				<h3>User Story</h3>
-				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>As a member of Medium, I want to post articles</h4>
+				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em> As a member of Medium, I want to post articles</h4>
 				<p></p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong>Through-Hiking the Appalachian Trail</li>
-					<li><strong>Name of the "actor, user or Persona, and their role</strong>Alicia, Through-Hiker</li>
-					<li><strong>Usage Preconditions</strong>Alicia needs to be a member of Medium and be signed in (Has to be in a place where she has wifi access)</li>
-					<li><strong>Usage Postconditions</strong>Alicia's article is posted and available for her friends to read while she continues hiking.</li>
+					<li><strong>Title: </strong> Through-Hiking the Appalachian Trail</li>
+					<li><strong>Name of the "actor, user or Persona, and their role: </strong> Alicia, Through-Hiker</li>
+					<li><strong>Usage Preconditions: </strong> Alicia needs to be a member of Medium and be signed in (Has to be in a place where she has wifi access)</li>
+					<li><strong>Usage Postconditions:</strong> Alicia's article is posted and available for her friends to read while she continues hiking.</li>
 					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong>once-a-week</li>
+					<li><strong>Frequency of Use: </strong> once-a-week</li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
