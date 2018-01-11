@@ -16,17 +16,26 @@
 	</head>
 	<body>
 		<main>
-			<h1></h1>
+			<h1>Personas, Use Cases, & Interaction Flow</h1>
 			<div>
 				<h2></h2>
-				<h3></h3>
+				<h3>Persona:</h3>
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>Name: </li>
+					<li>Personality:</li>
+					<li>Gender:</li>
+					<li>Age:</li>
+					<li>Technology:</li>
+					<ul>
+						<li>Device:</li>
+						<li>Proficiency:</li>
+						<li>Love/hate:</li>
+					</ul>
+					<li>Attitudes & needs:</li>
+					<ul>
+						<li>What need does this person have?</li>
+						<li>Why choose your site over other options?</li>
+					</ul>
 					<li></li>
 				</ul>
 
