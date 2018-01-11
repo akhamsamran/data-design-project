@@ -13,12 +13,13 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Title</title>
+		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
 		<main>
-			<h1>Personas, Use Cases, & Interaction Flow</h1>
+			<h1>Data Design</h1>
 			<div>
-				<h2></h2>
+				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
 				<ul>
 					<li><strong>Name</strong>: </li>
@@ -65,9 +66,12 @@
 				</ul>
 			</div>
 			<div>
-				<h2></h2>
+				<h2>Entities & Attributes</h2>
 				<p></p>
 				<table>
+					<thead>
+						<thcolspan="4">kfjas;ldkfgja;s</thcolspan></th>
+					</thead>
 					<tr>
 						<th>TH 1</th>
 						<th>TH 2</th>
