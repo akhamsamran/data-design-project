@@ -84,7 +84,7 @@
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong>blog</th>
+						<th colspan="3"><strong>Entity Name:</strong> blog</th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -205,6 +205,71 @@
 						<td>TD 10 3</td>
 					</tr>
 				</table>
+				<hr/>
+
+				<table>
+					<thead>
+						<th colspan="3"><strong>Entity Name:</strong> clap</th>
+					</thead>
+					<tr>
+						<th>attributeName (entityAttribute:)</th>
+						<th>PrimaryKey:</th>
+						<th>Note:</th>
+					</tr>
+					<tr>
+						<td>clapId</td>
+						<td>Primary Key</td>
+						<td>this attribute may not be necessary because of the following 2 attributes combined can be co-primary keys</td>
+					</tr>
+					<tr>
+						<td>clapMemberId</td>
+						<td>Foreign Key</td>
+						<td>relationship to member entity: 1-to-n = member-to-clap(each member can clap n times)</td>
+					</tr>
+					<tr>
+						<td>clapBlogId</td>
+						<td>Foreign Key</td>
+						<td>relationship to blog entity: 1-to-n = blog-to-clap (each blog can have n claps)</td>
+					</tr>
+					<tr>
+						<td>TD 4 1</td>
+						<td>TD 4 2</td>
+						<td>TD 4 3</td>
+					</tr>
+					<tr>
+						<td>TD 5 1</td>
+						<td>TD 5 2</td>
+						<td>TD 5 3</td>
+					</tr>
+					<tr>
+						<td>TD 6 1</td>
+						<td>TD 6 2</td>
+						<td>TD 6 3</td>
+					</tr>
+					<tr>
+						<td>TD 7 1</td>
+						<td>TD 7 2</td>
+						<td>TD 7 3</td>
+					</tr>
+					<tr>
+						<td>TD 8 1</td>
+						<td>TD 8 2</td>
+						<td>TD 8 3</td>
+					</tr>
+					<tr>
+						<td>TD 9 1</td>
+						<td>TD 9 2</td>
+						<td>TD 9 3</td>
+					</tr>
+					<tr>
+						<td>TD 10 1</td>
+						<td>TD 10 2</td>
+						<td>TD 10 3</td>
+					</tr>
+				</table>
+				<p>Note: the clap entity is an intermediary table between the member table and the blog table. it allows for a m-to-n relationship, by having 1-to-n relationships with both member and blog.</p>
+			</div>
+			<hr/>
 			</div>
 			<hr/>
 			<!--this <div> is to hold all the front-end items. enter the "answer" or the information following the </strong> for each category. The "name of each required item is in <strong> bold, and the answers should be regular.  This is just a stylistic idea to distinguish question from answer, but is not required.-->
