@@ -17,12 +17,13 @@
 				<!--the <p> below is to enter information about what website/app this is about, or notes on the project-->
 				<p>Here is a first-attempt to grok <em>Medium</em> blog website</p>
 				<!--the entity tables below each have space for up to 10 attributes. In the case that there are less, rows can be deleted, but no more should be added to a table, as each entity should have not more than 10 attributes.  Copy and paste a whole table when more are needed, delete the ones that are not needed.-->
+				<hr/>
 				<table>
 					<thead>
 						<th colspan="3"><strong>Entity Name:</strong> member</th>
 					</thead>
 					<tr>
-						<td>attributeName:(entityAttribute)</td>
+						<th>attributeName:(entityAttribute)</th>
 						<th>PrimaryKey:</th>
 						<th>Note:</th>
 					</tr>
@@ -42,7 +43,7 @@
 						<td></td>
 					</tr>
 					<tr>
-						<th>memberEmail</th>
+						<td>memberEmail</td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -77,12 +78,13 @@
 						<td>TD 10 3</td>
 					</tr>
 				</table>
+				<p>note: used the name "member" because this is the name that the website uses for its users/bloggers</p>
 				<!--The tables were running into eachother, so I added the horizontal break between each of them, just to distinguish them from eachother-->
 				<hr/>
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
+						<th colspan="3"><strong>Entity Name:</strong>blog</th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -90,29 +92,29 @@
 						<th>Note:</th>
 					</tr>
 					<tr>
-						<td>TD 1 1</td>
-						<td>TD 1 2</td>
-						<td>TD 1 3</td>
+						<td>blogId</td>
+						<td>primary key</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 2 1</td>
-						<td>TD 2 2</td>
-						<td>TD 2 3</td>
+						<td>blogTitle</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 3 1</td>
-						<td>TD 3 2</td>
-						<td>TD 3 3</td>
+						<td>BlogContent</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 4 1</td>
-						<td>TD 4 2</td>
-						<td>TD 4 3</td>
+						<td>blogAuthor</td>
+						<td>Foreign Key</td>
+						<td>relationship to member entity. 1-to-n = member-to-blog</td>
 					</tr>
 					<tr>
-						<td>TD 5 1</td>
-						<td>TD 5 2</td>
-						<td>TD 5 3</td>
+						<td>blogDate</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
 						<td>TD 6 1</td>
