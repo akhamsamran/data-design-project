@@ -149,7 +149,7 @@
 				</table>
 
 				<hr/>
-
+				<!--
 				<table>
 					<thead>
 						<th colspan="3"><strong>response</strong> (Entity) </th>
@@ -184,7 +184,7 @@
 						<td></td>
 						<td></td>
 					</tr>
-					<!-- this part of the table is currently unused...
+					this part of the table is currently unused...
 					<tr>
 						<td>TD 6 1</td>
 						<td>TD 6 2</td>
@@ -210,11 +210,11 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
-					-->
+
 				</table>
-
+-->
 				<hr/>
-
+				-->
 				<table>
 					<thead>
 						<th colspan="3"><strong>clap</strong> (Entity)</th>
