@@ -14,6 +14,7 @@
 			<!-- this <div> is to hold the Backend Entities/Attributes and keep it separate from the frontend stuff-->
 			<div>
 				<h2>Entities & Attributes</h2>
+				<!--the <p> below is to enter information about what website/app this is about, or notes on the project-->
 				<p></p>
 				<!--the entity tables below each have space for up to 10 attributes. In the case that there are less, rows can be deleted, but no more should be added to a table, as each entity should have not more than 10 attributes.  Copy and paste a whole table when more are needed, delete the ones that are not needed.-->
 				<table>
