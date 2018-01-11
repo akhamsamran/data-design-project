@@ -70,7 +70,7 @@
 				<p></p>
 				<table>
 					<thead>
-						<thcolspan="4">kfjas;ldkfgja;s</thcolspan></th>
+						<th colspan="4">kfjas;ldkfgja;s</th></th>
 					</thead>
 					<tr>
 						<th>TH 1</th>
