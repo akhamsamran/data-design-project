@@ -286,49 +286,48 @@
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
 				<ul>
-					<li><strong>Name</strong>: </li>
-					<li><strong>Personality</strong>:</li>
-					<li><strong>Gender</strong>:</li>
-					<li><strong>Age</strong>:</li>
-					<li><strong>Technology</strong>:</li>
+					<li><strong>Name</strong>: Geri </li>
+					<li><strong>Personality</strong>:smart, calm, quick-witted, overworked</li>
+					<li><strong>Gender</strong>:Female</li>
+					<li><strong>Age</strong>:38</li>
+					<li><strong>Technology</strong>:Apple</li>
 					<ul>
-						<li><strong>Device</strong>Device:</li>
-						<li><strong>Proficiency</strong>Proficiency:</li>
-						<li><strong>Love/Hate</strong>Love/hate:</li>
+						<li><strong>Device</strong>iPhone(older model), macbook(older model)</li>
+						<li><strong>Proficiency</strong>medium proficiency, good at facebooking</li>
+						<li><strong>Love/Hate</strong>Definitely a strong like, maybe even love. Feels generally competent</li>
 					</ul>
-					<li><strong>Attitudes & Needs</strong>Attitudes & needs:</li>
+					<li><strong>Attitudes & Needs</strong></li>
 					<ul>
-						<li><strong>What need does this person have?</strong></li>
-						<li><strong>Why choose your site over other options?</strong></li>
+						<li><strong>What need does this person have?</strong> Geri needs to have her clinical requirements signed off by her preceptor</li>
+						<li><strong>Why choose your site over other options?</strong>She needs a place where both she and her preceptor can sign-in and "meet" to have items verified. The 1 site (Typhon Group) that do this are very expensive for her college, and is set up for nursing students, so the College they don't buy such a service for their students</li>
 					</ul>
 				</ul>
 
 				<h3>User Story</h3>
 				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
-				<p></p>
+				<p>As a Student User, I want to enter clinicals so my preceptor can sign them off</p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong></li>
-					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
-					<li><strong>Usage Preconditions</strong></li>
-					<li><strong>Usage Postconditions</strong></li>
-					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong></li>
+					<li><strong>Title</strong>Get a Required Clinical Entered and signed off</li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong>Midwife Apprentice</li>
+					<li><strong>Usage Preconditions</strong>Student must be enrolled as a StudentUser on the app</li>
+					<li><strong>Usage Postconditions</strong>clinical information is posted in the app and available for the preceptor to verify</li>
+					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong>on clincal days, several days per week, this is done by the student as soon as a clinical requirement is complete</li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
-					<li><strong>User Action 1</strong></li>
-					<li><strong>System Response 1</strong></li>
-					<li><strong>User Action 2</strong></li>
-					<li><strong>System Response 2</strong></li>
-					<li><strong>User Action 3</strong></li>
+					<li><strong>User Action 1</strong> Student logs in</li>
+					<li><strong>System Response 1</strong>opens access to their file and gives access to a table where information about the clinical can be entered</li>
+					<li><strong>User Action 2</strong> student enters information on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
+					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's username and the preceptors username. Generates an alert for the preceptor that a clinical is posted for their verification</li>
+					<li><strong>User Action 3</strong>Student logs out</li>
 					<li><strong>System Response 3</strong></li>
 					<li><strong>User Action 4</strong></li>
 					<li><strong>System Response 4</strong></li>
 					<li><strong>User Action 5</strong></li>
 					<li><strong>System Response 5</strong></li>
 				</ul>
-			</div>
 
 		</main>
 

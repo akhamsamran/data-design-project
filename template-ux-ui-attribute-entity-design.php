@@ -242,7 +242,7 @@
 				<ul>
 					<li><strong>User Action 1</strong> Student logs in</li>
 					<li><strong>System Response 1</strong>opens access to their file and gives access to a table where information about the clinical can be entered</li>
-					<li><strong>User Action 2</strong> student enters inforamtion on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
+					<li><strong>User Action 2</strong> student enters information on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
 					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's username and the preceptors username. Generates an alert for the preceptor that a clinical is posted for their verification</li>
 					<li><strong>User Action 3</strong>Student logs out</li>
 					<li><strong>System Response 3</strong></li>
@@ -251,6 +251,55 @@
 					<li><strong>User Action 5</strong></li>
 					<li><strong>System Response 5</strong></li>
 				</ul>
+
+
+
+				<h2>Personas, Use Cases, & Interaction Flow</h2>
+				<h3>Persona:</h3>
+				<ul>
+					<li><strong>Name</strong>: </li>
+					<li><strong>Personality</strong>:</li>
+					<li><strong>Gender</strong>:</li>
+					<li><strong>Age</strong>:</li>
+					<li><strong>Technology</strong>:</li>
+					<ul>
+						<li><strong>Device</strong>Device:</li>
+						<li><strong>Proficiency</strong>Proficiency:</li>
+						<li><strong>Love/Hate</strong>Love/hate:</li>
+					</ul>
+					<li><strong>Attitudes & Needs</strong>Attitudes & needs:</li>
+					<ul>
+						<li><strong>What need does this person have?</strong></li>
+						<li><strong>Why choose your site over other options?</strong></li>
+					</ul>
+				</ul>
+
+				<h3>User Story</h3>
+				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
+				<p></p>
+				<h3>Use Case</h3>
+				<ul>
+					<li><strong>Title</strong></li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
+					<li><strong>Usage Preconditions</strong></li>
+					<li><strong>Usage Postconditions</strong></li>
+					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong></li>
+				</ul>
+				<h3>Interaction Flow:</h3>
+				<ul>
+					<li><strong>User Action 1</strong></li>
+					<li><strong>System Response 1</strong></li>
+					<li><strong>User Action 2</strong></li>
+					<li><strong>System Response 2</strong></li>
+					<li><strong>User Action 3</strong></li>
+					<li><strong>System Response 3</strong></li>
+					<li><strong>User Action 4</strong></li>
+					<li><strong>System Response 4</strong></li>
+					<li><strong>User Action 5</strong></li>
+					<li><strong>System Response 5</strong></li>
+				</ul>
+
 			</div>
 
 		</main>
