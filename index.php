@@ -286,52 +286,50 @@
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
 				<ul>
-					<li><strong>Name</strong>: Geri G.</li>
-					<li><strong>Personality</strong>:Smart, calm, quick-witted, overworked</li>
-					<li><strong>Gender</strong>:Female</li>
-					<li><strong>Age</strong>:38</li>
-					<li><strong>Technology</strong>:Apple
+					<li><strong>Name</strong>: </li>
+					<li><strong>Personality</strong>:</li>
+					<li><strong>Gender</strong>:</li>
+					<li><strong>Age</strong>:</li>
+					<li><strong>Technology</strong>:</li>
 					<ul>
-						<li><strong>Device</strong> iPhone(older model), macbook(older model)</li>
-						<li><strong>Proficiency</strong> medium proficiency, good at facebooking</li>
-						<li><strong>Love/Hate</strong> Definitely a strong like, maybe even love. Feels generally competent. Since she is a student, she doesn't have enough money to buy the newest version, so will use the old ones 'till they die.</li>
+						<li><strong>Device</strong>Device:</li>
+						<li><strong>Proficiency</strong>Proficiency:</li>
+						<li><strong>Love/Hate</strong>Love/hate:</li>
 					</ul>
-					</li>
-					<li><strong>Attitudes & Needs</strong>
+					<li><strong>Attitudes & Needs</strong>Attitudes & needs:</li>
 					<ul>
-						<li><strong>What need does this person have?</strong> Geri is a student at a school that has required clinicals that take place in an apprenticeship setting.  At the moment, she prints off clinical record forms, and documents all the clinical hours she has, and then has her preceptor(instructor) sign each one as verification that she completed a requirement or mastered a clinical skill.  She NEEDS to have this available online so that she could log into a site, enter her clinicals, and then have them open to her preceptor for verification or for feedback.</li>
-						<li><strong>Why choose your site over other options?</strong>She needs a place where both she and her preceptor can sign-in and "meet" to have items verified. The only site (Typhon Group) that specifically does this is too expensive for her small college, and is set up for nursing students.  The college has tried doing it through GoggleDocs, but this has drawbacks in setup (each student-preceptor team has to be individually set up and invited to spreadsheets/docs online, and MUST have a gmail account).  An inexpensive, simple app is needed.</li>
+						<li><strong>What need does this person have?</strong></li>
+						<li><strong>Why choose your site over other options?</strong></li>
 					</ul>
-					</li>
 				</ul>
 
 				<h3>User Story</h3>
 				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
-				<p>As a Student User, I want to enter clinicals so my preceptor can sign them off</p>
+				<p></p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong> Get a Required Clinical Entered and signed off</li>
-					<li><strong>Name of the "actor, user or Persona, and their role</strong>Midwife Apprentice</li>
-					<li><strong>Usage Preconditions</strong> Student must be enrolled as a StudentUser on the app</li>
-					<li><strong>Usage Postconditions</strong> clinical information is posted in the app and available for the preceptor to verify</li>
-					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong> on clincal days, several days per week, this is done by the student as soon as a clinical requirement is complete</li>
+					<li><strong>Title</strong></li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
+					<li><strong>Usage Preconditions</strong></li>
+					<li><strong>Usage Postconditions</strong></li>
+					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong></li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
-					<li><strong>User Action 1</strong> Student logs in</li>
-					<li><strong>System Response 1</strong> opens access to the student's file and gives access to a table where information about the clinical can be entered</li>
-					<li><strong>User Action 2</strong> student enters information on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
-					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's userId and the preceptor's userId. Generates an alert for the preceptor that a clinical is posted for their verification</li>
-					<li><strong>User Action 3</strong> Student clicks logout button</li>
-					<li><strong>System Response 3</strong> System logs student out of system</li>
-					<!-- here are extra fields in case I need to use them...
+					<li><strong>User Action 1</strong></li>
+					<li><strong>System Response 1</strong></li>
+					<li><strong>User Action 2</strong></li>
+					<li><strong>System Response 2</strong></li>
+					<li><strong>User Action 3</strong></li>
+					<li><strong>System Response 3</strong></li>
 					<li><strong>User Action 4</strong></li>
 					<li><strong>System Response 4</strong></li>
 					<li><strong>User Action 5</strong></li>
 					<li><strong>System Response 5</strong></li>
-					-->
 				</ul>
+
+			</div>
 
 		</main>
 
