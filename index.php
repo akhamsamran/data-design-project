@@ -147,7 +147,7 @@
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
+						<th colspan="3"><strong>Entity Name:</strong> response </th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -155,29 +155,29 @@
 						<th>Note:</th>
 					</tr>
 					<tr>
-						<td>TD 1 1</td>
-						<td>TD 1 2</td>
-						<td>TD 1 3</td>
+						<td>responseId</td>
+						<td>Primary Key</td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 2 1</td>
-						<td>TD 2 2</td>
-						<td>TD 2 3</td>
+						<td>responseMember</td>
+						<td>Foreign Key</td>
+						<td>relationship to member entity: 1-to-many = member-to-response</td>
 					</tr>
 					<tr>
-						<td>TD 3 1</td>
-						<td>TD 3 2</td>
-						<td>TD 3 3</td>
+						<td>responseDate</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 4 1</td>
-						<td>TD 4 2</td>
-						<td>TD 4 3</td>
+						<td>responseHeadline</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
-						<td>TD 5 1</td>
-						<td>TD 5 2</td>
-						<td>TD 5 3</td>
+						<td>responseContent</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<tr>
 						<td>TD 6 1</td>
