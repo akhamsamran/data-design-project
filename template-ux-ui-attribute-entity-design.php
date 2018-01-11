@@ -1,13 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: anna
- * Date: 1/10/2018
- * Time: 3:27 PM
- */
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -83,6 +73,8 @@
 					</tr>
 				</table>
 
+				<hr/>
+
 				<table>
 					<thead>
 						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
@@ -143,6 +135,8 @@
 						<td>TD 10 3</td>
 					</tr>
 				</table>
+
+				<hr/>
 
 				<table>
 					<thead>
@@ -205,6 +199,7 @@
 					</tr>
 				</table>
 			</div>
+			<hr/>
 			<div>
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>

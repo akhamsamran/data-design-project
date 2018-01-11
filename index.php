@@ -209,6 +209,7 @@
 					</tr>
 				</table>
 			</div>
+			<hr/>
 			<div>
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
