@@ -20,7 +20,7 @@
 				<hr/>
 				<table>
 					<thead>
-						<th colspan="3"><strong>Member</strong>(Entity)</th>
+						<th colspan="3"><strong>profile</strong>(Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName:(entityAttribute)</th>
@@ -28,41 +28,42 @@
 						<th>Note:</th>
 					</tr>
 					<tr>
-						<td>memberUserName(ID)</td>
+						<td>profileId</td>
 						<td>Primary Key</td>
 						<td>profileId (primary key)</td>
 					</tr>
 					<tr>
-						<td>memberFirstName</td>
+						<td>profileFirstName</td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
-						<td>memberLastname</td>
+						<td>profileLastname</td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
-						<td>memberEmail</td>
+						<td>profileEmail</td>
 						<td></td>
 						<td></td>
 					</tr>
 					<tr>
-						<td>memberPassword</td>
+						<td>profileHash</td>
 						<td></td>
 						<td>profileHash</td>
 					</tr>
 					<tr>
-						<td>memberProfile</td>
+						<td>profileSalt</td>
 						<td></td>
-						<td>about the blogger/short bio</td>
+						<td></td>
+					</tr>
+
+					<tr>
+						<td>profileBlog</td>
+						<td></td>
+						<td></td>
 					</tr>
 					<!-- this part of the table is currently unused...
-					<tr>
-						<td>TD 7 1</td>
-						<td>TD 7 2</td>
-						<td>TD 7 3</td>
-					</tr>
 					<tr>
 						<td>TD 8 1</td>
 						<td>TD 8 2</td>
