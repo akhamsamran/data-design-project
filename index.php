@@ -286,45 +286,45 @@
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
 				<ul>
-					<li><strong>Name</strong>: </li>
-					<li><strong>Personality</strong>:</li>
-					<li><strong>Gender</strong>:</li>
-					<li><strong>Age</strong>:</li>
-					<li><strong>Technology</strong>:</li>
+					<li><strong>Name</strong>: Alicia</li>
+					<li><strong>Personality</strong>: Confident, adventurous, kind. Wants to share her adventures and save the world</li>
+					<li><strong>Gender</strong>: Female</li>
+					<li><strong>Age</strong>: 24</li>
+					<li><strong>Technology</strong>: comfortable with Windows, Mac and Android</li>
 					<ul>
-						<li><strong>Device</strong>Device:</li>
-						<li><strong>Proficiency</strong>Proficiency:</li>
-						<li><strong>Love/Hate</strong>Love/hate:</li>
+						<li><strong>Device</strong> Samsung Galaxy 7 phone, macbook pro (2011)</li>
+						<li><strong>Proficiency</strong> Feels highly competent on all technology, learns new tech fast</li>
+						<li><strong>Love/Hate</strong> Loves it!  Checks Instagram and Facebook daily. Shares photos, texts, calls, emails.</li>
 					</ul>
-					<li><strong>Attitudes & Needs</strong>Attitudes & needs:</li>
+					<li><strong>Attitudes & Needs</strong></li>
 					<ul>
-						<li><strong>What need does this person have?</strong></li>
-						<li><strong>Why choose your site over other options?</strong></li>
+						<li><strong>What need does this person have?</strong> She needs a blogging platform with a seamless, beautiful interface where she can post her articles from her travels and share with other hikers</li>
+						<li><strong>Why choose your site over other options?</strong> Medium is beautiful, easy for her family back home to use, and allows commenting, and highlighting directly within the text of the article.</li>
 					</ul>
 				</ul>
 
 				<h3>User Story</h3>
-				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
+				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>As a member of Medium, I want to post articles</h4>
 				<p></p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong></li>
-					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
-					<li><strong>Usage Preconditions</strong></li>
-					<li><strong>Usage Postconditions</strong></li>
-					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong></li>
+					<li><strong>Title</strong>Through-Hiking the Appalachian Trail</li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong>Alicia, Through-Hiker</li>
+					<li><strong>Usage Preconditions</strong>Alicia needs to be a member of Medium and be signed in (Has to be in a place where she has wifi access)</li>
+					<li><strong>Usage Postconditions</strong>Alicia's article is posted and available for her friends to read while she continues hiking.</li>
+					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong>once-a-week</li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
-					<li><strong>User Action 1</strong></li>
-					<li><strong>System Response 1</strong></li>
-					<li><strong>User Action 2</strong></li>
-					<li><strong>System Response 2</strong></li>
-					<li><strong>User Action 3</strong></li>
-					<li><strong>System Response 3</strong></li>
-					<li><strong>User Action 4</strong></li>
-					<li><strong>System Response 4</strong></li>
+					<li><strong>User Action 1</strong> Alicia enters her username and password.</li>
+					<li><strong>System Response 1</strong> Medium logs her in.</li>
+					<li><strong>User Action 2</strong> Alicia clicks that she wants to post an article.</li>
+					<li><strong>System Response 2</strong> Medium opens a box in which she can write or cut and paste her article, with an area for title and for content.</li>
+					<li><strong>User Action 3</strong>Alicia enters her article, with title and content.</li>
+					<li><strong>System Response 3</strong> Medium saves her article and displays it for other members to read.</li>
+					<li><strong>User Action 4</strong>Alicia clicks the logout button.</li>
+					<li><strong>System Response 4</strong> Medium logs Alicia out.</li>
 					<li><strong>User Action 5</strong></li>
 					<li><strong>System Response 5</strong></li>
 				</ul>
