@@ -82,7 +82,7 @@
 						<td>TD 10 3</td>
 					</tr>
 				</table>
-
+				<hr/>
 				<table>
 					<thead>
 						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
