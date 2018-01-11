@@ -232,9 +232,10 @@
 						<td>relationship to blog entity: 1-to-n = blog-to-clap (each blog can have n claps)</td>
 					</tr>
 					<tr>
-						<td>TD 4 1</td>
-						<td>TD 4 2</td>
-						<td>TD 4 3</td>
+						<td>clapNumber</td>
+						<td></td>
+						<td>this site allows members to clap multiple times for a single blog, so this is required,since each member can give a different number of claps. it is NOT the same as a "like" in Facebook</td>
+
 					</tr>
 					<tr>
 						<td>TD 5 1</td>
