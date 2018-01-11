@@ -21,22 +21,21 @@
 				<h2></h2>
 				<h3>Persona:</h3>
 				<ul>
-					<li>Name: </li>
-					<li>Personality:</li>
-					<li>Gender:</li>
-					<li>Age:</li>
-					<li>Technology:</li>
+					<li><strong>Name</strong>: </li>
+					<li><strong>Personality</strong>:</li>
+					<li><strong>Gender</strong>:</li>
+					<li><strong>Age</strong>:</li>
+					<li><strong>Technology</strong>:</li>
 					<ul>
-						<li>Device:</li>
-						<li>Proficiency:</li>
-						<li>Love/hate:</li>
+						<li><strong>Device</strong>Device:</li>
+						<li><strong>Proficiency</strong>Proficiency:</li>
+						<li><strong>Love/Hate</strong>Love/hate:</li>
 					</ul>
-					<li>Attitudes & needs:</li>
+					<li><strong>Attitudes & Needs</strong>Attitudes & needs:</li>
 					<ul>
-						<li>What need does this person have?</li>
-						<li>Why choose your site over other options?</li>
+						<li><strong>What need does this person have?</strong></li>
+						<li><strong>Why choose your site over other options?</strong></li>
 					</ul>
-					<li></li>
 				</ul>
 
 				<h3></h3>
