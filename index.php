@@ -57,6 +57,7 @@
 						<td></td>
 						<td>about the blogger/short bio</td>
 					</tr>
+					<!-- this part of the table is currently unused...
 					<tr>
 						<td>TD 7 1</td>
 						<td>TD 7 2</td>
@@ -77,7 +78,9 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
+					-->
 				</table>
+
 				<p>note: used the name "member" because this is the name that the website uses for its users/bloggers</p>
 				<!--The tables were running into eachother, so I added the horizontal break between each of them, just to distinguish them from eachother-->
 				<hr/>
@@ -116,6 +119,7 @@
 						<td></td>
 						<td></td>
 					</tr>
+					<!-- this part of the table is currently unused...
 					<tr>
 						<td>TD 6 1</td>
 						<td>TD 6 2</td>
@@ -141,6 +145,7 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
+					-->
 				</table>
 
 				<hr/>
@@ -179,6 +184,7 @@
 						<td></td>
 						<td></td>
 					</tr>
+					<!-- this part of the table is currently unused...
 					<tr>
 						<td>TD 6 1</td>
 						<td>TD 6 2</td>
@@ -204,7 +210,9 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
+					-->
 				</table>
+
 				<hr/>
 
 				<table>
@@ -235,7 +243,7 @@
 						<td>clapNumber</td>
 						<td></td>
 						<td>this site allows members to clap multiple times for a single blog, so this is required,since each member can give a different number of claps. it is NOT the same as a "like" in Facebook</td>
-
+					<!-- this part of the table is currently unused...
 					</tr>
 					<tr>
 						<td>TD 5 1</td>
@@ -267,10 +275,10 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
+					-->
 				</table>
+
 				<p>Note: the clap entity is an intermediary table between the member table and the blog table. it allows for a m-to-n relationship, by having 1-to-n relationships with both member and blog.</p>
-			</div>
-			<hr/>
 			</div>
 			<hr/>
 			<!--this <div> is to hold all the front-end items. enter the "answer" or the information following the </strong> for each category. The "name of each required item is in <strong> bold, and the answers should be regular.  This is just a stylistic idea to distinguish question from answer, but is not required.-->
