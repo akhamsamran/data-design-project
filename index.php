@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Title</title>
+		<title>data-design</title>
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
@@ -20,7 +20,7 @@
 				<hr/>
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong> member</th>
+						<th colspan="3"><strong>Member</strong>(Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName:(entityAttribute)</th>
@@ -87,7 +87,7 @@
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong> blog</th>
+						<th colspan="3"><strong>blog</strong>(Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -152,7 +152,7 @@
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong> response </th>
+						<th colspan="3"><strong>response</strong> (Entity) </th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -217,7 +217,7 @@
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>Entity Name:</strong> clap</th>
+						<th colspan="3"><strong>clap</strong> (Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -286,21 +286,23 @@
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
 				<ul>
-					<li><strong>Name</strong>: Geri </li>
+					<li><strong>Name</strong>: Geri G.</li>
 					<li><strong>Personality</strong>:smart, calm, quick-witted, overworked</li>
 					<li><strong>Gender</strong>:Female</li>
 					<li><strong>Age</strong>:38</li>
-					<li><strong>Technology</strong>:Apple</li>
+					<li><strong>Technology</strong>:Apple
 					<ul>
 						<li><strong>Device</strong>iPhone(older model), macbook(older model)</li>
 						<li><strong>Proficiency</strong>medium proficiency, good at facebooking</li>
 						<li><strong>Love/Hate</strong>Definitely a strong like, maybe even love. Feels generally competent</li>
 					</ul>
-					<li><strong>Attitudes & Needs</strong></li>
+					</li>
+					<li><strong>Attitudes & Needs</strong>
 					<ul>
-						<li><strong>What need does this person have?</strong> Geri needs to have her clinical requirements signed off by her preceptor</li>
-						<li><strong>Why choose your site over other options?</strong>She needs a place where both she and her preceptor can sign-in and "meet" to have items verified. The 1 site (Typhon Group) that do this are very expensive for her college, and is set up for nursing students, so the College they don't buy such a service for their students</li>
+						<li><strong>What need does this person have?</strong> Geri is a student at a school that has required clinicals that take place in an apprenticeship setting.  At the moment, she prints off clinical record forms, and documents all the clinical hours she has, and then has her preceptor(instructor) sign each one as verification that she completed a requirement or mastered a clinical skill.  She NEEDS to have this available online so that she could log into a site, enter her clinicals, and then have them open to her preceptor for verification or for feedback.</li>
+						<li><strong>Why choose your site over other options?</strong>She needs a place where both she and her preceptor can sign-in and "meet" to have items verified. The only site (Typhon Group) that specifically does this is too expensive for her small college, and is set up for nursing students.  The college has tried doing it through GoggleDocs, but this has drawbacks in setup (each student-preceptor team has to be individually set up and invited to spreadsheets/docs online, and MUST have a gmail account).  An inexpensive, simple app is needed.</li>
 					</ul>
+					</li>
 				</ul>
 
 				<h3>User Story</h3>
@@ -308,12 +310,12 @@
 				<p>As a Student User, I want to enter clinicals so my preceptor can sign them off</p>
 				<h3>Use Case</h3>
 				<ul>
-					<li><strong>Title</strong>Get a Required Clinical Entered and signed off</li>
+					<li><strong>Title</strong> Get a Required Clinical Entered and signed off</li>
 					<li><strong>Name of the "actor, user or Persona, and their role</strong>Midwife Apprentice</li>
-					<li><strong>Usage Preconditions</strong>Student must be enrolled as a StudentUser on the app</li>
-					<li><strong>Usage Postconditions</strong>clinical information is posted in the app and available for the preceptor to verify</li>
+					<li><strong>Usage Preconditions</strong> Student must be enrolled as a StudentUser on the app</li>
+					<li><strong>Usage Postconditions</strong> clinical information is posted in the app and available for the preceptor to verify</li>
 					<li><strong>Interaction Flow(s), including alternates, if appropriate</strong></li>
-					<li><strong>Frequency of Use</strong>on clincal days, several days per week, this is done by the student as soon as a clinical requirement is complete</li>
+					<li><strong>Frequency of Use</strong> on clincal days, several days per week, this is done by the student as soon as a clinical requirement is complete</li>
 				</ul>
 				<h3>Interaction Flow:</h3>
 				<ul>
