@@ -152,52 +152,52 @@
 						<th>Note:</th>
 					</tr>
 					<tr>
-						<th>TD 1 1</th>
+						<td>TD 1 1</td>
 						<td>TD 1 2</td>
 						<td>TD 1 3</td>
 					</tr>
 					<tr>
-						<th>TD 2 1</th>
+						<td>TD 2 1</td>
 						<td>TD 2 2</td>
 						<td>TD 2 3</td>
 					</tr>
 					<tr>
-						<th>TD 3 1</th>
+						<td>TD 3 1</td>
 						<td>TD 3 2</td>
 						<td>TD 3 3</td>
 					</tr>
 					<tr>
-						<th>TD 4 1</th>
+						<td>TD 4 1</td>
 						<td>TD 4 2</td>
 						<td>TD 4 3</td>
 					</tr>
 					<tr>
-						<th>TD 5 1</th>
+						<td>TD 5 1</td>
 						<td>TD 5 2</td>
 						<td>TD 5 3</td>
 					</tr>
 					<tr>
-						<th>TD 6 1</th>
+						<td>TD 6 1</td>
 						<td>TD 6 2</td>
 						<td>TD 6 3</td>
 					</tr>
 					<tr>
-						<th>TD 7 1</th>
+						<td>TD 7 1</td>
 						<td>TD 7 2</td>
 						<td>TD 7 3</td>
 					</tr>
 					<tr>
-						<th>TD 8 1</th>
+						<td>TD 8 1</td>
 						<td>TD 8 2</td>
 						<td>TD 8 3</td>
 					</tr>
 					<tr>
-						<th>TD 9 1</th>
+						<td>TD 9 1</td>
 						<td>TD 9 2</td>
 						<td>TD 9 3</td>
 					</tr>
 					<tr>
-						<th>TD 10 1</th>
+						<td>TD 10 1</td>
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
