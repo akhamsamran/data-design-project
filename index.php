@@ -304,7 +304,7 @@
 				</ul>
 
 				<h3>User Story</h3>
-				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em> As a member of Medium, I want to post articles</h4>
+				<h4><em> As a member of Medium, I want to post articles</h4>
 				<p></p>
 				<h3>Use Case</h3>
 				<ul>
