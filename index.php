@@ -59,7 +59,7 @@
 					</tr>
 
 					<tr>
-						<td>profileBlog</td>
+						<td>profileAboutMe</td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -111,7 +111,7 @@
 						<td></td>
 					</tr>
 					<tr>
-						<td>blogAuthor</td>
+						<td>blogprofileId</td>
 						<td>Foreign Key</td>
 						<td>relationship to member entity. 1-to-n = member-to-blog</td>
 					</tr>
@@ -231,7 +231,7 @@
 						<td>this attribute may not be necessary because of the following 2 attributes combined can be co-primary keys</td>
 					</tr>
 					<tr>
-						<td>clapMemberId</td>
+						<td>clapProfileId</td>
 						<td>Foreign Key</td>
 						<td>relationship to member entity: 1-to-n = member-to-clap(each member can clap n times)</td>
 					</tr>
@@ -241,7 +241,7 @@
 						<td>relationship to blog entity: 1-to-n = blog-to-clap (each blog can have n claps)</td>
 					</tr>
 					<tr>
-						<td>clapNumber</td>
+						<td></td>
 						<td></td>
 						<td>this site allows members to clap multiple times for a single blog, so this is required,since each member can give a different number of claps. it is NOT the same as a "like" in Facebook</td>
 					<!-- this part of the table is currently unused...
