@@ -1,13 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: anna
- * Date: 1/10/2018
- * Time: 3:27 PM
- */
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -16,12 +6,16 @@
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
+		<!--semantic tag <main> used, plan in future to add <header> above and <footer> below, but not needed for now, but want to be sure that the main tag is correctly labeled and filled with content-->
+		<!-- 2 <div>s within the <main> div: to separate the Backend Entities/Attributes section from the Frontend Persona/use Case sections -->
 		<main>
 			<h1>Data Design</h1>
 			<p>1/10/2018 Anna Khamsamran</p>
+			<!-- this <div> is to hold the Backend Entities/Attributes and keep it separate from the frontend stuff-->
 			<div>
 				<h2>Entities & Attributes</h2>
 				<p></p>
+				<!--the entity tables below each have space for up to 10 attributes. In the case that there are less, rows can be deleted, but no more should be added to a table, as each entity should have not more than 10 attributes.  Copy and paste a whole table when more are needed, delete the ones that are not needed.-->
 				<table>
 					<thead>
 						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
@@ -82,9 +76,9 @@
 						<td>TD 10 3</td>
 					</tr>
 				</table>
-
+				<!--The tables were running into eachother, so I added the horizontal break between each of them, just to distinguish them from eachother-->
 				<hr/>
-				
+
 				<table>
 					<thead>
 						<th colspan="3"><strong>Entity Name:</strong>camelCase </th>
@@ -210,6 +204,7 @@
 				</table>
 			</div>
 			<hr/>
+			<!--this <div> is to hold all the front-end items. enter the "answer" or the information following the </strong> for each category. The "name of each required item is in <strong> bold, and the answers should be regular.  This is just a stylistic idea to distinguish question from answer, but is not required.-->
 			<div>
 				<h2>Personas, Use Cases, & Interaction Flow</h2>
 				<h3>Persona:</h3>
