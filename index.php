@@ -38,15 +38,17 @@
 					</ul>
 				</ul>
 
-				<h3></h3>
+				<h3>User Story</h3>
+				<h4><em>"As a ___(role as relative to the application)___user, I want to__(what do they need to do)__</em>"</h4>
+				<p></p>
+				<h3>Use Case</h3>
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li><strong>Title</strong></li>
+					<li><strong>Name of the "actor, user or Persona, and their role</strong></li>
+					<li><strong>Usage Preconditions</strong></li>
+					<li><strong>Usage Postconditions</strong></li>
+					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
+					<li><strong>Frequency of Use</strong></li>
 				</ul>
 			</div>
 			<div>
