@@ -325,7 +325,7 @@
 					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's userId and the preceptor's userId. Generates an alert for the preceptor that a clinical is posted for their verification</li>
 					<li><strong>User Action 3</strong> Student clicks logout button</li>
 					<li><strong>System Response 3</strong> System logs student out of system</li>
-					<!--
+					<!-- here are extra fields in case I need to use them...
 					<li><strong>User Action 4</strong></li>
 					<li><strong>System Response 4</strong></li>
 					<li><strong>User Action 5</strong></li>
