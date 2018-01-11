@@ -20,7 +20,7 @@
 				<hr/>
 				<table>
 					<thead>
-						<th colspan="3"><strong>profile</strong>(Entity)</th>
+						<th colspan="3"><strong>profile</strong> (Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName:(entityAttribute)</th>
@@ -83,12 +83,12 @@
 				</table>
 
 				<p>note: used the name "member" because this is the name that the website uses for its users/bloggers</p>
-				<!--The tables were running into eachother, so I added the horizontal break between each of them, just to distinguish them from eachother-->
+				<!--The tables were running into each other, so I added the horizontal break between each of them, just to distinguish them from each other-->
 				<hr/>
 
 				<table>
 					<thead>
-						<th colspan="3"><strong>blog</strong>(Entity)</th>
+						<th colspan="3"><strong>blog</strong> (Entity)</th>
 					</thead>
 					<tr>
 						<th>attributeName (entityAttribute:)</th>
@@ -211,9 +211,8 @@
 						<td>TD 10 2</td>
 						<td>TD 10 3</td>
 					</tr>
-
 				</table>
--->
+
 				<hr/>
 				-->
 				<table>
@@ -243,7 +242,7 @@
 					<tr>
 						<td></td>
 						<td></td>
-						<td>this site allows members to clap multiple times for a single blog, so this is required,since each member can give a different number of claps. it is NOT the same as a "like" in Facebook</td>
+						<td></td>
 					<!-- this part of the table is currently unused...
 					</tr>
 					<tr>
@@ -279,7 +278,7 @@
 					-->
 				</table>
 
-				<p>Note: the clap entity is an intermediary table between the member table and the blog table. it allows for a m-to-n relationship, by having 1-to-n relationships with both member and blog.</p>
+				<p>Note: the clap entity is an intermediary table between the member table and the blog table. It allows for a m-to-n relationship, by having 1-to-n relationships with both member and blog. This site allows members to clap multiple times for a single blog, so this is required,since each member can give a different number of claps. it is NOT the same as a "like" in Facebook</p>
 			</div>
 			<hr/>
 			<!--this <div> is to hold all the front-end items. enter the "answer" or the information following the </strong> for each category. The "name of each required item is in <strong> bold, and the answers should be regular.  This is just a stylistic idea to distinguish question from answer, but is not required.-->
@@ -288,14 +287,14 @@
 				<h3>Persona:</h3>
 				<ul>
 					<li><strong>Name</strong>: Geri G.</li>
-					<li><strong>Personality</strong>:smart, calm, quick-witted, overworked</li>
+					<li><strong>Personality</strong>:Smart, calm, quick-witted, overworked</li>
 					<li><strong>Gender</strong>:Female</li>
 					<li><strong>Age</strong>:38</li>
 					<li><strong>Technology</strong>:Apple
 					<ul>
-						<li><strong>Device</strong>iPhone(older model), macbook(older model)</li>
-						<li><strong>Proficiency</strong>medium proficiency, good at facebooking</li>
-						<li><strong>Love/Hate</strong>Definitely a strong like, maybe even love. Feels generally competent</li>
+						<li><strong>Device</strong> iPhone(older model), macbook(older model)</li>
+						<li><strong>Proficiency</strong> medium proficiency, good at facebooking</li>
+						<li><strong>Love/Hate</strong> Definitely a strong like, maybe even love. Feels generally competent. Since she is a student, she doesn't have enough money to buy the newest version, so will use the old ones 'till they die.</li>
 					</ul>
 					</li>
 					<li><strong>Attitudes & Needs</strong>
@@ -321,11 +320,11 @@
 				<h3>Interaction Flow:</h3>
 				<ul>
 					<li><strong>User Action 1</strong> Student logs in</li>
-					<li><strong>System Response 1</strong>opens access to their file and gives access to a table where information about the clinical can be entered</li>
+					<li><strong>System Response 1</strong> opens access to the student's file and gives access to a table where information about the clinical can be entered</li>
 					<li><strong>User Action 2</strong> student enters information on client code, type of clinical, date of clinical, verifying preceptor, etc</li>
-					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's username and the preceptors username. Generates an alert for the preceptor that a clinical is posted for their verification</li>
+					<li><strong>System Response 2</strong> saves the information the student entered in tables within its database, linked to the student's userId and the preceptor's userId. Generates an alert for the preceptor that a clinical is posted for their verification</li>
 					<li><strong>User Action 3</strong> Student clicks logout button</li>
-					<li><strong>System Response 3</strong>  system logs student out of system</li>
+					<li><strong>System Response 3</strong> System logs student out of system</li>
 					<!--
 					<li><strong>User Action 4</strong></li>
 					<li><strong>System Response 4</strong></li>
