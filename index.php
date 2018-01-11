@@ -50,6 +50,19 @@
 					<li><strong>Interactrion Flow(s), including alternates, if appropriate</strong></li>
 					<li><strong>Frequency of Use</strong></li>
 				</ul>
+				<h3>Interaction Flow:</h3>
+				<ul>
+					<li><strong>User Action 1</strong></li>
+					<li><strong>System Response 1</strong></li>
+					<li><strong>User Action 2</strong></li>
+					<li><strong>System Response 2</strong></li>
+					<li><strong>User Action 3</strong></li>
+					<li><strong>System Response 3</strong></li>
+					<li><strong>User Action 4</strong></li>
+					<li><strong>System Response 4</strong></li>
+					<li><strong>User Action 5</strong></li>
+					<li><strong>System Response 5</strong></li>
+				</ul>
 			</div>
 			<div>
 				<h2></h2>
